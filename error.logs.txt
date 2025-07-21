@@ -1,0 +1,187 @@
+[2025-07-13 01:21] ERROR: Expected double-quoted property name in JSON at position 59 - POST /api/users/signIn
+[2025-07-13 02:13] ERROR: Cannot destructure property 'jwtToken' of 'req.cookies' as it is undefined. - GET /api/users/logOut
+[2025-07-13 02:18] ERROR: ObjectId is not defined - GET /api/users/logOut
+[2025-07-13 02:20] ERROR: User Unauthorised! - GET /api/users/logOut
+[2025-07-13 11:02] ERROR: ObjectId is not defined - GET /api/users/logOutAll
+[2025-07-13 15:30] ERROR: User Unauthorised! - GET /api/users/getUserDetails/68734495321e64bf5c61577b
+[2025-07-13 15:45] ERROR: User not found. - GET /api/users/getAllDetails
+[2025-07-13 15:46] ERROR: User not found. - GET /api/users/getAllDetails
+[2025-07-13 15:46] ERROR: User not found. - GET /api/users/getAllDetails
+[2025-07-13 15:55] ERROR: user is not defined - GET /api/users/getAllDetails
+[2025-07-13 15:55] ERROR: user is not defined - GET /api/users/getAllDetails
+[2025-07-13 16:14] ERROR: this.userRep.userDetail(...).select is not a function - GET /api/users/getUserDetails/68734495321e64bf5c61577b
+[2025-07-13 16:14] ERROR: this.userRep.userDetail(...).select is not a function - GET /api/users/getUserDetails/68734495321e64bf5c61577b
+[2025-07-13 16:14] ERROR: this.userRep.userDetail(...).select is not a function - GET /api/users/getUserDetails/68734495321e64bf5c61577b
+[2025-07-13 16:22] ERROR: User Unauthorised! - GET /api/users/getUserDetails/68734495321e64bf5c61577b
+[2025-07-13 16:37] ERROR: E11000 duplicate key error collection: postAway-2.users index: email_1 dup key: { email: "alex@gmail.com" } - POST /api/users/signUp
+[2025-07-13 17:52] ERROR: E11000 duplicate key error collection: postAway-2.users index: email_1 dup key: { email: "alexi@gmail.com" } - POST /api/users/signUp
+[2025-07-13 17:53] ERROR: jwt expired - PUT /api/users/updateData/687393932c10b7dbe7a9975a
+[2025-07-13 17:54] ERROR: Cannot destructure property 'name' of 'req.body' as it is undefined. - PUT /api/users/updateData/687394052c10b7dbe7a9975f
+[2025-07-13 17:56] ERROR: Cannot destructure property 'name' of 'req.body' as it is undefined. - PUT /api/users/updateData/687394052c10b7dbe7a9975f
+[2025-07-13 18:02] ERROR: Cannot destructure property 'name' of 'req.body' as it is undefined. - PUT /api/users/updateData/687394052c10b7dbe7a9975f
+[2025-07-13 18:03] ERROR: this.userRep.updateData is not a function - PUT /api/users/updateData/687394052c10b7dbe7a9975f
+[2025-07-14 03:50] ERROR: crypto.randomBytes is not a function - GET /api/user/otp/sendOtp
+[2025-07-14 03:50] ERROR: Cast to ObjectId failed for value "wickserick@gmail.com" (type string) at path "_id" for model "user" - GET /api/user/otp/sendOtp
+[2025-07-14 03:54] ERROR: Parameter "filter" to findOneAndUpdate() must be an object, got "wickserick@gmail.com" (type string) - GET /api/user/otp/sendOtp
+[2025-07-14 03:54] ERROR: nodemailer is not defined - GET /api/user/otp/sendOtp
+[2025-07-14 03:55] ERROR: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b3bbe52c914sm8872777a12.7 - gsmtp - GET /api/user/otp/sendOtp
+[2025-07-14 10:24] ERROR: Missing credentials for "PLAIN" - GET /api/user/otp/sendOtp
+[2025-07-14 10:27] ERROR: Missing credentials for "PLAIN" - GET /api/user/otp/sendOtp
+[2025-07-14 10:27] ERROR: Missing credentials for "PLAIN" - GET /api/user/otp/sendOtp
+[2025-07-14 10:31] ERROR: Missing credentials for "PLAIN" - GET /api/user/otp/sendOtp
+[2025-07-14 10:35] ERROR: Missing credentials for "PLAIN" - GET /api/user/otp/sendOtp
+[2025-07-14 10:36] ERROR: Missing credentials for "PLAIN" - GET /api/user/otp/sendOtp
+[2025-07-14 10:41] ERROR: Cannot read properties of undefined (reading 'otp') - GET /api/user/otp/sendOtp
+[2025-07-14 10:43] ERROR: Cannot read properties of undefined (reading 'otp') - GET /api/user/otp/sendOtp
+[2025-07-14 12:57] ERROR: Cannot destructure property 'email' of 'req.body' as it is undefined. - GET /api/user/otp/verifyOtp
+[2025-07-14 14:10] ERROR: Cannot destructure property 'email' of 'req.body' as it is undefined. - GET /api/user/otp/verifyOtp
+[2025-07-14 14:10] ERROR: Cannot destructure property 'email' of 'req.body' as it is undefined. - GET /api/user/otp/verifyOtp
+[2025-07-14 14:10] ERROR: Parameter "filter" to findOne() must be an object, got "wickserick@gmail.com" (type string) - GET /api/user/otp/verifyOtp
+[2025-07-14 14:10] ERROR: Otp has expired - GET /api/user/otp/verifyOtp
+[2025-07-14 14:13] ERROR: Opt didn't match - GET /api/user/otp/verifyOtp
+[2025-07-14 16:18] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:19] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:22] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:24] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:24] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:26] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:28] ERROR: Cannot read properties of null (reading 'name') - GET /api/user/otp/sendOtp
+[2025-07-14 16:38] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 16:38] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 16:39] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 16:40] ERROR: invalid expiresIn option for string payload - POST /api/user/otp/verifyOtp
+[2025-07-14 16:40] ERROR: invalid expiresIn option for string payload - POST /api/user/otp/verifyOtp
+[2025-07-14 16:41] ERROR: invalid expiresIn option for string payload - POST /api/user/otp/verifyOtp
+[2025-07-14 16:42] ERROR: data and salt arguments required - PUT /api/user/otp/resetPassword
+[2025-07-14 16:43] ERROR: data and salt arguments required - PUT /api/user/otp/resetPassword
+[2025-07-14 16:57] ERROR: email is not defined - PUT /api/user/otp/resetPassword
+[2025-07-14 17:05] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 17:05] ERROR: jwt malformed - PUT /api/user/otp/resetPassword
+[2025-07-14 17:06] ERROR: jwt malformed - PUT /api/user/otp/resetPassword
+[2025-07-14 17:06] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 18:47] ERROR: Unexpected end of JSON input - GET /api/user/logOutAll
+[2025-07-14 18:47] ERROR: User Unauthorised! - GET /api/user/logOutAll
+[2025-07-14 18:48] ERROR: error.statusCode is not a function - POST /api/user/signIn
+[2025-07-14 18:49] ERROR: Password is invalid - POST /api/user/signIn
+[2025-07-14 18:50] ERROR: User Unauthorised! - GET /api/user/logOutAll
+[2025-07-14 18:54] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 18:54] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 19:22] ERROR: jwt expired - PUT /api/user/otp/resetPassword
+[2025-07-14 19:37] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 19:39] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 21:58] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 21:59] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 22:00] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 22:21] ERROR: Reset Token is missing. - PUT /api/user/otp/resetPassword
+[2025-07-14 22:22] ERROR: Otp didn't match - POST /api/user/otp/verifyOtp
+[2025-07-14 22:23] ERROR: Token is expired or invalid - PUT /api/user/otp/resetPassword
+[2025-07-14 23:54] ERROR: jwt expired - PUT /api/user/otp/resetPassword
+[2025-07-14 23:55] ERROR: Token is expired or invalid - PUT /api/user/otp/resetPassword
+[2025-07-16 02:46] ERROR: this.postRepo is not a function - GET /api/posts/getOnePost/687652243eac426ac86dd0f0
+[2025-07-16 02:49] ERROR: User is Unauthorized - POST /api/posts/uploadPost
+[2025-07-16 02:49] ERROR: User is Unauthorized - POST /api/posts/uploadPost
+[2025-07-16 02:53] ERROR: newpost.save(...).select is not a function - POST /api/posts/uploadPost
+[2025-07-16 02:53] ERROR: savedPost.select is not a function - POST /api/posts/uploadPost
+[2025-07-16 02:54] ERROR: (intermediate value).select is not a function - POST /api/posts/uploadPost
+[2025-07-16 02:54] ERROR: (intermediate value).select is not a function - POST /api/posts/uploadPost
+[2025-07-16 03:05] ERROR: post is not defined - GET /api/posts/getUserPosts/687652243eac426ac86dd0f0
+[2025-07-16 03:10] ERROR: post is not defined - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 03:10] ERROR: post is not defined - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 03:11] ERROR: post is not defined - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 03:12] ERROR: User not found - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 03:13] ERROR: User not found - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 03:13] ERROR: User not found - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 03:19] ERROR: User not found - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 11:45] ERROR: jwt expired - GET /api/posts/getUserPosts/687503f58670f2fbfb66d62e
+[2025-07-16 12:42] ERROR: Cannot read properties of undefined (reading 'caption') - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 12:43] ERROR: Cannot read properties of undefined (reading 'caption') - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 12:48] ERROR: jwt expired - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 12:48] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 12:49] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 12:52] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 13:00] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 13:05] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 13:06] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 13:06] ERROR: Unexpected field - PUT /api/posts/updatePosts/6876ca81d73cae780ab28c2f
+[2025-07-16 14:25] ERROR: jwt expired - DELETE /api/posts/deletePost/6876ca81d73cae780ab28c2f
+[2025-07-16 14:25] ERROR: Cannot read properties of undefined (reading 'id') - DELETE /api/posts/deletePost/6876ca81d73cae780ab28c2f
+[2025-07-18 12:06] ERROR: this.path.indexOf is not a function - GET /app/like/6879ea0a2116f566f99337df
+[2025-07-18 12:31] ERROR: this.path.indexOf is not a function - GET /app/like/6879ea0a2116f566f99337df
+[2025-07-18 12:31] ERROR: this.path.indexOf is not a function - GET /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 12:32] ERROR: this.path.indexOf is not a function - GET /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 12:33] ERROR: this.splitPath is not a function - GET /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 12:34] ERROR: this.splitPath is not a function - GET /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 15:23] ERROR: jwt expired - POST /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 16:08] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('6879ea0a2116f566f99337df'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 19:18] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('6879ea0a2116f566f99337df'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /app/likes/6879ea0a2116f566f99337df
+[2025-07-18 20:00] ERROR: Cast to ObjectId failed for value "SchemaObjectId {
+  path: '6879ea0a2116f566f99337df',
+  instance: 'ObjectId',
+  validators: [],
+  getters: [],
+  setters: [],
+  _presplitPath: [ '6879ea0a2116f566f99337df' ],
+  options: SchemaObjectIdOptions {},
+  _index: null,
+  [Symbol(mongoose#schemaType)]: true
+}" (type SchemaObjectId) at path "_id" for model "posts" - GET /api/posts/postLikes/6879ea0a2116f566f99337df
+[2025-07-18 20:06] ERROR: Invalid select: select only takes 1 argument - GET /api/posts/Likes/6879ea0a2116f566f99337df
+[2025-07-19 02:54] ERROR: createPost is not defined - POST /api/comments/6879ea0a2116f566f99337df
+[2025-07-19 02:58] ERROR: Comment is required - POST /api/comments/6879ea0a2116f566f99337df
+[2025-07-19 02:59] ERROR: Validation Error: comments validation failed: textComment: Path `textComment` is required.
+[2025-07-19 03:00] ERROR: Validation Error: comments validation failed: comment: Path `comment` is required.
+[2025-07-19 03:02] ERROR: deleteLike is not defined - DELETE /api/comments/delete/6879ea0a2116f566f99337df
+[2025-07-19 03:04] ERROR: Like not found - DELETE /api/comments/delete/687abbdb12324119341c762e
+[2025-07-19 03:06] ERROR: comment not found - DELETE /api/comments/delete/687abbdb12324119341c762e
+[2025-07-19 03:09] ERROR: comment not found - DELETE /api/comments/delete/6879ea0a2116f566f99337df
+[2025-07-19 11:38] ERROR: jwt expired - DELETE /api/comments/delete/6879ea0a2116f566f99337df
+[2025-07-19 11:39] ERROR: comment not found - DELETE /api/comments/delete/6879ea0a2116f566f99337df
+[2025-07-19 11:39] ERROR: comment not found - DELETE /api/comments/delete/6879ea0a2116f566f99337df
+[2025-07-20 00:52] ERROR: postId is not defined - DELETE /api/comments/delete/687b4dd27303c8b90abcba84
+[2025-07-20 00:58] ERROR: comment not found - DELETE /api/comments/delete/687b4dd27303c8b90abcba84
+[2025-07-20 01:00] ERROR: comment not found - DELETE /api/comments/delete/687bf24275670794662f6c80
+[2025-07-20 13:23] ERROR: likeCont is not defined - PUT /api/comments/update/687c998ebb7db3174b900b67
+[2025-07-20 13:24] ERROR: Cast to string failed for value "{ comment: 'This is my updated comment' }" (type Object) at path "comment" - PUT /api/comments/update/687c998ebb7db3174b900b67
+[2025-07-20 13:25] ERROR: Cast to string failed for value "{ comment: 'This is my updated comment' }" (type Object) at path "comment" - PUT /api/comments/update/687c998ebb7db3174b900b67
+[2025-07-20 19:23] ERROR: Cannot read properties of undefined (reading 'params') - POST /api/friend/request/687393932c10b7dbe7a9975a
+[2025-07-20 19:23] ERROR: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`. - POST /api/friend/request/687393932c10b7dbe7a9975a
+[2025-07-20 19:26] ERROR: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`. - POST /api/friend/request/687393932c10b7dbe7a9975a
+[2025-07-20 19:26] ERROR: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`. - POST /api/friend/request/687393932c10b7dbe7a9975a
+[2025-07-20 20:00] ERROR: Cast to ObjectId failed for value "{
+  from: { from: '687393932c10b7dbe7a9975a', to: '687503f58670f2fbfb66d62e' },
+  to: undefined,
+  status: 'pending'
+}" (type Object) at path "_id" for model "friend" - POST /api/friend/accept/687393932c10b7dbe7a9975a
+[2025-07-20 20:20] ERROR: jwt expired - POST /api/friend/accept/687393932c10b7dbe7a9975a
+[2025-07-20 20:20] ERROR: Cast to ObjectId failed for value "{ from: '687393932c10b7dbe7a9975a', to: '687503f58670f2fbfb66d62e' }" (type Object) at path "from" for model "friend" - POST /api/friend/accept/687393932c10b7dbe7a9975a
+[2025-07-20 22:22] ERROR: jwt expired - PUT /api/otp/resetPassword
+[2025-07-20 22:23] ERROR: invalid signature - PUT /api/otp/resetPassword
+[2025-07-20 22:24] ERROR: Cannot destructure property 'email' of 'req.body' as it is undefined. - GET /api/otp/sendOtp
+[2025-07-20 22:27] ERROR: Password is invalid - POST /api/user/signIn
+[2025-07-20 22:34] ERROR: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`. - POST /api/friend/request/687393932c10b7dbe7a9975a
+[2025-07-21 03:00] ERROR: Schema hasn't been registered for model "User".
+Use mongoose.model(name, schema) - GET /api/friend/allFriends
+[2025-07-21 15:26] ERROR: Cast to ObjectId failed for value "{ from: '687503f58670f2fbfb66d62e', to: '687503f58670f2fbfb66d62e' }" (type Object) at path "to" for model "friend" - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:27] ERROR: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`. - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:28] ERROR: Cast to ObjectId failed for value "{ from: '687503f58670f2fbfb66d62e', to: '687503f58670f2fbfb66d62e' }" (type Object) at path "to" for model "friend" - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:29] ERROR: Cast to ObjectId failed for value "{ from: '687503f58670f2fbfb66d62e', to: '687503f58670f2fbfb66d62e' }" (type Object) at path "to" for model "friend" - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:31] ERROR: Cast to ObjectId failed for value "{ from: '687503f58670f2fbfb66d62e', to: '687503f58670f2fbfb66d62e' }" (type Object) at path "to" for model "friend" - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:32] ERROR: Cast to ObjectId failed for value "{ from: '687503f58670f2fbfb66d62e', to: '687503f58670f2fbfb66d62e' }" (type Object) at path "to" for model "friend" - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:47] ERROR: invalid way of sending request - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:48] ERROR: invalid way of sending request - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:50] ERROR: invalid way of sending request - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-21 15:51] ERROR: Friendship already exists. - POST /api/friend/request/687d20132a2d820477145ba2
+[2025-07-22 00:30] ERROR: rqstSave.populate(...).select is not a function - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-22 00:30] ERROR: Friend request already sent. - POST /api/friend/request/687503f58670f2fbfb66d62e
+[2025-07-22 01:40] ERROR: Password must be 6-12 characters long and include at least one letter, one number, and one special character - POST /api/user/signUp
+[2025-07-22 01:41] ERROR: error.statusCode is not a function - POST /api/user/signIn
+[2025-07-22 01:41] ERROR: error.statusCode is not a function - POST /api/user/signIn
+[2025-07-22 01:41] ERROR: User Not Found - POST /api/user/signIn
+[2025-07-22 02:54] ERROR: Like not found - DELETE /api/likes/unLikePost/687b4db47303c8b90abcba82
+[2025-07-22 02:55] ERROR: You need to like first for unliking the post. - DELETE /api/likes/unLikePost/687b4db47303c8b90abcba82
+[2025-07-22 02:58] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('687b4db47303c8b90abcba82'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /api/likes/687b4db47303c8b90abcba82
+[2025-07-22 03:09] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('687b4db47303c8b90abcba82'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /api/likes/687b4db47303c8b90abcba82
+[2025-07-22 03:09] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('687b4db47303c8b90abcba82'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /api/likes/687b4db47303c8b90abcba82
+[2025-07-22 03:09] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('687b4db47303c8b90abcba82'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /api/likes/687b4db47303c8b90abcba82
+[2025-07-22 03:11] ERROR: E11000 duplicate key error collection: postAway-2.likes index: postId_1_userId_1 dup key: { postId: ObjectId('687b4db47303c8b90abcba82'), userId: ObjectId('687503f58670f2fbfb66d62e') } - POST /api/likes/687b4db47303c8b90abcba82
