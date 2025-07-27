@@ -122,7 +122,7 @@ node server.js
 | DELETE | /api/posts/deletePost/:id   | Delete post                         |
 | GET    | /api/posts/getUserPosts/:id | Get posts by a user                 |
 | GET    | /api/posts/Likes/:id        | Get like count for post             |
-| GET    | /api/posts/Comments/:id     | Get comment count for post          |
+| GET    | /api/posts/comments/:id     | Get comment count for post          |
 | POST   | /api/comments/:id           | Add a comment to post               |
 | PUT    | /api/update/:id             | Update comment                      |
 | DELETE | /api//delete/:id            | Delete comment                      |
@@ -140,13 +140,7 @@ node server.js
 
 Most routes are protected using **JWT middleware**. Include the token in headers:
 
-```http
-Authorization: Bearer <jwt_token>
-``` 
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
 
- 
-
- # postaway-rest-api
